@@ -1,5 +1,6 @@
 # QEES-ROS2-Labs
 Prototypes of ROS2 based assignments prepared for the Quantitative Evaluation of Embedded Systems course at TUDelft
+Authors: Fanis Flors (ffloros), Grzegorz Krukiewicz-Gacek (greggS)
 
 ## Prerequirements
 - Ubuntu (18.04 or newer)
