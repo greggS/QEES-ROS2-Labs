@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>classification</name>
+  <version>0.0.0</version>
+  <description>Takes the point clusters data as input and depending on the cluster size classifies it into the available categories.</description>
+  <maintainer email="g.m.krukiewicz-gacek@student.tudelft.nl">Fanis Floros and Grzegorz Krukiewicz-Gacek</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

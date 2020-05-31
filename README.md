@@ -15,6 +15,7 @@ The provided packages allow you to identify other objects (cars or pedestrians) 
 
 Based on the clustering node output, the classification node determines the type of object represented by the cluster. A sample where you see 4 cars and 1 person with relative distance 8.01, 13.6, 3.75, 10.6 and 3.66 from the center of the car is presented below.
 ![Gazebo example](/readme_images/Gazebo_tutorial.png "Gazebo example")
+
 Note that the data you receive on topic clusters are relative distances and hence change due to the movement of the car. In order to get the absolute position values of an object, you need to use car's odometry information and reduce the movement of the car from the object's location. 
 
 The classified clusters data is later passed to the Markov node which, based on a pedestrian behaviour model, calculates the  probabilities for the next pedestrian position. 
